@@ -48,7 +48,7 @@ Integrated the secure element, I first researched a bunch of options and I found
 
 Overall I learned a lot about physical security and cool things about security elements and it was pretty straightforward!
 
-## Added bunch of small features and checking final things --- 2.3 Hours
+## Added bunch of small features and checking final things - Day 3 --- 2.3 Hours
 
 I've worked on a couple features and looking on finishing the schematic soon™️.
 
