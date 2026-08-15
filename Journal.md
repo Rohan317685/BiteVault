@@ -48,4 +48,20 @@ Integrated the secure element, I first researched a bunch of options and I found
 
 Overall I learned a lot about physical security and cool things about security elements and it was pretty straightforward!
 
+## Added bunch of small features and checking final things --- 2.3 Hours
+
+I've worked on a couple features and looking on finishing the schematic soon™️.
+
+I have added a Status LED it is the APTD1608LSURCK and it seems to be very small and cheap which is perfect! I spent a while researching for a good LED that matches the projects interests, heres the [LCSC page](https://www.lcsc.com/product-detail/C5342734.html). 
+
+I've also added a bunch of test points as apparently their very useful for programming and debugging. I realised I needed a button for the Fido2 user presence verification so I implemented a 4 pin SMD button thats also quite cheap and good, heres the [LCSC page](https://www.lcsc.com/product-detail/C318893.html). 
+
+I was looking over decoupling things and overall polish I noticed I needed decoupling for the Security element and a bulk cap for the Vbus. I'm still figuring out whether I need 22 Ohm damping resistors as I feel its a bit unnecessary so I will do more research later on.
+
+--------------------------------------------------------------------------------------------- 
+
+![image](https://cdn.hackclub.com/01a002dd-46ed-73e6-b779-f8578ee98214/Screenshot%20from%202026-08-15%2001-33-11.png)
+
+
+
 
