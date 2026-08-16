@@ -73,6 +73,8 @@ The footprint assignment and BOM (Bill of materials) research has begun! I've fi
 
 I tried ordering from LCSC, Mouser and Digikey later realised shipping would absolutely break me 💔 
 
+I'll stick to 0603 components as I fear 0402 will be incredibly hard to solder, PCBA cost's a ton so I will be using a 15$ hotplate I got to reflow it with a stencil at home. 
+
 Overall I worked on polishing everything, changed the pinout for the voltage regulator to match my choice for purchase and made it much more readable! 
 
 ---------------------------------------------------------------------------------------------
@@ -81,6 +83,6 @@ Overall I worked on polishing everything, changed the pinout for the voltage reg
 
 ![image](https://cdn.hackclub.com/01a00829-8cf7-78a1-8e6e-0120d7912806/Screenshot%20from%202026-08-16%2002-01-10.png)
 
-![image](https://cdn.hackclub.com/01a00829-702a-75cb-a8c7-31e2ea6c473d/Screenshot%20from%202026-08-16%2002-06-28.png)
+![image](https://user-cdn.hackclub-assets.com/01a00829-8dd3-746f-b101-cccc5406d3a0/Screenshot%20from%202026-08-16%2002-01-25.png)
 
 
