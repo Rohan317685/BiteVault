@@ -63,5 +63,24 @@ I was looking over decoupling things and overall polish I noticed I needed decou
 ![image](https://cdn.hackclub.com/01a002dd-46ed-73e6-b779-f8578ee98214/Screenshot%20from%202026-08-15%2001-33-11.png)
 
 
+## Final schematic polish and working on bom + footprint assignment - Day 4 --- 1.9 Hours
+
+Welp, I'm pretty much done with the schematic I had a look into a bunch of stuff today, first of all I added 22 Ohm resistors for the USB-A connector. They seem to be worth it and much safer! 
+
+I made a quick 5 minute logo on canva which I might remake (?) along with organised it I will try to customise the borders more tomorrow to make it a good fit. 
+
+The footprint assignment and BOM (Bill of materials) research has begun! I've figured out exact LCSC part numbers for the Resistors, Capacitors and the LED along with footprints. pro tip: once you get a supplier for small parts like this stick with them as shipping from 5 different suppliers will be more expensive than the value of the components sob. 
+
+I tried ordering from LCSC, Mouser and Digikey later realised shipping would absolutely break me 💔 
+
+Overall I worked on polishing everything, changed the pinout for the voltage regulator to match my choice for purchase and made it much more readable! 
+
+---------------------------------------------------------------------------------------------
+
+![image](https://cdn.hackclub.com/01a00829-702a-75cb-a8c7-31e2ea6c473d/Screenshot%20from%202026-08-16%2002-06-28.png)
+
+![image](https://cdn.hackclub.com/01a00829-8cf7-78a1-8e6e-0120d7912806/Screenshot%20from%202026-08-16%2002-01-10.png)
+
+![image](https://cdn.hackclub.com/01a00829-702a-75cb-a8c7-31e2ea6c473d/Screenshot%20from%202026-08-16%2002-06-28.png)
 
 
