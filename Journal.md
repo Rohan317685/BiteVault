@@ -95,20 +95,26 @@ So today I fixed a lot of things and decided to not use a PCB etched USB-a male 
 This took me a while as for the footprint I had the Easyeda version instead of a Kicad and had to figure out how to convert it, I installed easyeda2kicad which is a footprint converter and converted the easyeda module into .pretty files! Also for this I had to research LCSC for Smd usb a male connectors which took a while but eventually worked out :D 
 
 USB-A footprint (J1): 
+
 ![image](https://cdn.hackclub.com/01a08d3a-eb17-72bb-b2e9-5dd45ebd7a3e/Screenshot%20from%202026-09-09%2023-01-13.png)
 
 After that I exported everything into PCB editor and there I got a error: 
+
 ![image](https://cdn.hackclub.com/01a08d40-a4a1-7420-9408-d1506d22bc9a/Screenshot%20from%202026-09-09%2023-31-09.png)
+
 After some quick searching around I found out this is because Kicad couldn't detect it as a complementary pair because of how the net was labelled, Sooo I added labels into the schematic 
+
 ![image](https://cdn.hackclub.com/01a08d41-cdcd-78e0-adb0-2e62c2bae9c8/Screenshot%20from%202026-09-09%2023-40-48.png)
 
 Then I placed a bunch of components and the edge outline/size of the PCB itself. Currently it is very small and I hope I can make it more compact at the end. I needed to do differential routing however with the ESD protection chip there was a ton of overlap so I had to do zig zags and stuff to make the routing equal length so that the data lines are fine which took a lot of adjustments and work with placement.
 
 Cursed differential pair routing: 
+
 ![image](https://cdn.hackclub.com/01a08d43-f564-7645-9d0a-34239270320f/Screenshot%20from%202026-09-10%2000-02-16.png)
 
 
 Overall PCB sofar: 
+
 ![image](https://cdn.hackclub.com/01a08d45-0896-73fd-8f67-4c6504edde8d/Screenshot%20from%202026-09-10%2022-41-41.png)
 
 
