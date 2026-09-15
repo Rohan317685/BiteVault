@@ -118,7 +118,7 @@ Overall PCB sofar:
 ![image](https://cdn.hackclub.com/01a08d45-0896-73fd-8f67-4c6504edde8d/Screenshot%20from%202026-09-10%2022-41-41.png)
 
 
-## Finished PCB routing -- 3.2 hours
+## Finished PCB routing -- 5.2 hours
 
 I finished routing the PCB which was hell basically
 
