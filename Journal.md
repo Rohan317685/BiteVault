@@ -118,3 +118,31 @@ Overall PCB sofar:
 ![image](https://cdn.hackclub.com/01a08d45-0896-73fd-8f67-4c6504edde8d/Screenshot%20from%202026-09-10%2022-41-41.png)
 
 
+## Finished PCB routing -- 3.2 hours
+
+I finished routing the PCB which was hell basically
+
+After I finished the pair routing I started placing everything accordingly 
+
+This took me a ton of adjustment as there was a lot of thermal errors and there where GND islands where the routing cut off the GND plane and I had to manually adjust it slightly and use vias.
+
+![image](https://cdn.hackclub.com/01a0a5ec-bd8d-70f0-bcb9-bc1d0dea2eca/snip-2026-09-15_17-34-46.png)
+
+This also took a shit ton of back and forth considering I didn't account for routing for other pins such as 3.3v caps etc and I had to slowly readjust the crystal every time. 
+
+![image](https://user-cdn.hackclub-assets.com/01a0a5ec-be99-73d3-8d6b-65c9845d2613/snip-2026-09-15_17-34-50.png)
+
+I genuinely got like 50 thermal errors here because it was so cramped I had to go ahead and change the layout a LOT and use vias much more carefully
+
+![image](https://cdn.hackclub.com/01a0a5ec-bfc4-7843-8d7a-d08adcaa51b6/snip-2026-09-15_17-35-05.png)
+
+After all that when I thought I was finally done I ran drc and ran into like 300 warnings/errors after ton of adjustments, replacing and excluding certain errors as they where due to footprint constraints which doesn't affect production I fixed all the errors and rest of the warnings are like silkscreen warning and I checked all their ignorable. This image is after filtering and fixing:
+
+![image](https://cdn.hackclub.com/01a0a5f3-0dec-7db3-8fab-3ac7fe1206b4/snip-2026-09-15_17-41-10.png)
+
+Here is the final PCB: 
+
+![image](https://cdn.hackclub.com/01a0a5ec-bc6a-70c2-867f-8ebfe0eb6664/snip-2026-09-15_17-34-39.png)
+
+
+
