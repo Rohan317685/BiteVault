@@ -18,6 +18,7 @@ A simple CH32 Cheap, Bit sized security key!
 <p align="center">
   <a href="#key-features">Key Features</a> •
   <a href="#pcb">PCB</a> •
+  <a href="#firmware">Firmware</a> •
   <a href="#credits">Credits</a> •
   <a href="#license">License</a>
 </p>
@@ -59,6 +60,24 @@ The 2-layer stackup:
 This project uses:
 
 - [KiCad](https://www.kicad.org/)
+
+
+## Firmware
+
+Lives in [`firmware/`](firmware) and is built with
+[ch32fun](https://github.com/cnlohr/ch32fun):
+
+```sh
+git submodule update --init --recursive
+cd firmware && make flash
+```
+
+Right now it brings the board up, enumerates over USB as a FIDO HID device,
+speaks the CTAPHID transport, and can talk to the ATECC608A — pressing the
+button runs a secure element self test, which is a handy way to check a freshly
+assembled board. The crypto (key generation, signing, registration) is not
+written yet, so it is not a working security key just yet; see
+[firmware/README.md](firmware/README.md) for exactly what is and is not there.
 
 
 ## License
