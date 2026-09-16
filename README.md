@@ -73,12 +73,14 @@ cd firmware && make flash
 ```
 
 Right now it brings the board up, enumerates over USB as a FIDO HID device,
-speaks the CTAPHID transport, and can talk to the ATECC608A — pressing the
+speaks the CTAPHID transport, and can talk to the ATECC608A by pressing the
 button runs a secure element self test, which is a handy way to check a freshly
 assembled board. The crypto (key generation, signing, registration) is not
 written yet, so it is not a working security key just yet; see
 [firmware/README.md](firmware/README.md) for exactly what is and is not there.
 
+## AI
+For transparency AI has been used in the project for the firmware only, AI has not partaken in any research or hardware aspect of the project. 
 
 ## License
 
